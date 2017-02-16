@@ -7,6 +7,6 @@ it('renders without crashing', () => {
   ReactDOM.render(<HelloWorld />, div);
 });
 it('renders a navigation'), ()=> {
-	const div = document.createElement('div');
+	const div = document.createElement('nav');
 	ReactDom.render(<App />, div);
 });

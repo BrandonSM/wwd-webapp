@@ -9,6 +9,10 @@ class HelloWorld extends Component {
       <div className="HelloWorld">Hello {this.props.name}!</div>
     );
   }
+  constructor(props) {
+    super(props);
+    this.state = { greeting: 'Hello' };
+  }
 }
 
 // Exports the component to view
