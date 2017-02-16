@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld';
 const App = () => {
   return (
     <div className="App">
-      <HelloWorld/>
+      <HelloWorld name="Brandon"/>
     </div>
   );
 };
