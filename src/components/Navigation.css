@@ -1,0 +1,15 @@
+/* Navigation CSS */
+
+.navigation-list {
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	border:0;
+	display:block;
+	max-width:1000px;
+}
+
+.navigation-list-item {
+	display:inline;
+	padding-left:50px;
+}
