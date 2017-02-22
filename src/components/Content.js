@@ -1,4 +1,4 @@
-// Content
+// Content Component
 import React, { Component } from 'react';
 import './Content.css';
 

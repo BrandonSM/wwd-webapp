@@ -1,5 +1,26 @@
 /* Footer CSS */
-footer-container {
-	width:100%;
+.footer-container {
 	background-color:#0f0f0a;
+	display:flex;
+	width:100%;
+	min-height:200px;
+}
+
+.footer-container h2 {
+	color:#efefef;
+	padding-left:50px;
+}
+
+.footer-left {
+	display:block;
+	width:50%;
+}
+
+.footer-right {
+	display:block;
+	width:50%;
+}
+
+.footer-right a {
+	display:block;
 }

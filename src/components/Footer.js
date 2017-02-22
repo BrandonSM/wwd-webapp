@@ -2,15 +2,22 @@
 import React, { Component } from 'react';
 import './Footer.css';
 
-// Default app
 class Footer extends Component {  
-	render() {
+	render() { 
+		return (
    <div className="footer-container">
-   	<h2>wwd.</h2> 
-   	<p></p>
-   	<p></p>
+   	<div className="footer-left">
+		<h2>wwd.</h2>
+   		<p></p>
+   		<p></p> 
+   	</div>
+   	<div className="footer-right">
+   		<a href="#">specials.</a>
+   		<a href="#">places.</a>
+   		<a href="#">get ahold of us.</a>
+   	</div>
    </div>
-  }
+ );}
 }
 
 // Exports the Footer component to view

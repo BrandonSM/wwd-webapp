@@ -10,6 +10,7 @@ class Navigation extends Component {
       	<li className="navigation-list-item"><a href="#">wwd.</a></li>
       	<li className="navigation-list-item"><a href="#">specials.</a></li>
       	<li className="navigation-list-item"><a href="#">places.</a></li>
+      	<li className="navigation-list-item"><a href="#">get ahold of us.</a></li>
       </ul>
     );
   }
